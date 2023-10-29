@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+
+ <!---------------CREATE SIDE BAR--------------------->
+
+   <body>
+
+    <div class="header">
+
+        <!--Top menu -->
+        <div class="sidebar">
+            <div class="profile">
+                <img src="icon/prof.jpg"
+       alt="profile_picture"> <h3>Midurn J</h3>
+            </div>
+            <!--menu item-->
+
+            <ul>
+                <li>
+                    <a href="#home">
+                        <span class="icon"><img src="icon/home.png" /></span>
+                        <span class="item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <span class="icon"><img src="icon/desc.png" /></span>
+                        <span class="item">About</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#skill">
+                        <span class="icon"><img src="icon/terminal.png" /></span>
+                        <span class="item">Skill</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#project">
+                        <span class="icon"><img src="icon/work.png" /></span>
+                        <span class="item">Project</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <span class="icon"><img src="icon/contact.png" /></span>
+                        <span class="item">Contact</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+
+    </div>
+
+<!---------------CREATE HOME SECTION--------------------->
+    <section class="home" id="home">
+      <div class="home-detail">
+        <h3>Hello It's Me</h3>
+        <h1>Midurn J</h1>
+        <h3>And I'm a <span>DevOps Engineer</span></h3>
+        <p>
+          An enthusiastic, versatile, young individual seeking an
+opportunity to play a challenging role to the commitment of the
+company’s excellence and continual improvement in compliance
+to the necessary standards and personal growth
+        </p>
+        <a class="btn" href="minres.pdf" download="MidurnJ_resume" target="_blank">Download CV</a>
+        <a class="btn" href='https://docs.google.com/document/d/1vVbKYtYL2nPw8kRM4fHPZVDhVAW0-_P-Y3nkEHTksWM/edit?usp=sharing' target="_blank">View Projects</a>
+      </div>
+
+    </section>
+
+<!---------------CREATE ABOUT SECTION--------------------->
+   <section class="about" id="about">
+
+        <div class="row">
+          <div class="about-col-1">
+            
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">Info</h1>
+          <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('bio')">Bio</p>
+          <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+           <p class="tab-links" onclick="opentab('certification')" >Certification</p>
+          <p class="tab-links" onclick="opentab('awards')">Awards</p>
+          <p class="tab-links" onclick="opentab('interest')">Interest</p>
+          </div>
+          
+          <div class='tab-contents active-tab' id='bio'>
+            <ul>
+              <li><span>D.O.B</span><br>30-03-1999</li>
+              <li><span>Degree</span><br>B.Tech in Smart Manufacturing</li>
+              <li><span>IIITD&M </span><br>Kancheepuram</li>
+              <li><span>Location</span><br>Trichy</li>
+              
+              
+            </ul>
+          </div>
+
+
+          <div class='tab-contents' id='experience'>
+            <ul>
+              <li><span>Kameleon Tech</span><br>DevOps Engineer</li>
+              <li><span>SQS NDT International</span><br><div title='Non-Destructive Testing (NDT)'>Project Intern</li>
+              <li><span>IIITD&M</span><br><div title='Processing of Banana Stem for fibre extraction at IIITD&M'>Research Assistant </li>
+              <li><span>Samgatha (IIITD&M)</span><br>PR Co-Ordinator</li>
+              <li><span>Shockwave Symposium (IIITD&M)</span><br>Management Volunteer</li>
+            </ul>
+          </div>
+
+          <div class='tab-contents' id='certification'>
+            <ul>
+              <li><span>Python</span><br>NPTEL</li>
+              <li><span>RC Aircraft Design</span><br>Sky-Fi Labs</li>
+            </ul>
+          </div>
+
+          <div class='tab-contents' id='awards'>
+            <ul>
+              <li><span>Vashisht(Runner up)</span><br>RC Bot Racing</li>
+              <li><span>Vashisht(Runner up)</span><br>Autonomous Maze Solving boat</li>
+            </ul>
+          </div>
+
+          <div class='tab-contents' id='interest'>
+            <ul>
+              <li><span>IoT</span></li>
+              <li><span>Cryptography</span></li>
+              <li><span>Data Science</span></li>
+              <li><span>Game Design</span></li>
+              
+            </ul>
+          </div
+        </div>
+
+
+    </section>
+
+<!---------------CREATE SKILL SECTION--------------------->
+
+<section class="skill" id="skill">
+
+  <div class="container">
+    <div class="progress" style="--i:85;--clr:#43f94a">
+      <h3>85<span>%</span></h3>
+      <h4>HTML</h4>
+    </div>
+    <div class="progress" style="--i:90;--clr:#43f94a">
+      <h3>90<span>%</span></h3>
+      <h4>CSS</h4>
+    </div>
+    <div class="progress" style="--i:70;--clr:#43f94a">
+      <h3>70<span>%</span></h3>
+      <h4>Python</h4>
+    </div>
+    <div class="progress" style="--i:95;--clr:#43f94a">
+      <h3>95<span>%</span></h3>
+      <h4>SQL</h4>
+    </div> 
+    <div class="progress" style="--i:75;--clr:#43f94a">
+      <h3>75<span>%</span></h3>
+      <h4>C</h4>
+    </div> 
+    <div class="progress" style="--i:60;--clr:#43f94a">
+      <h3>60<span>%</span></h3>
+      <h4>C++</h4>
+    </div>
+    <div class="progress" style="--i:75;--clr:#2ccde9">
+      <h3>75<span>%</span></h3>
+      <h4>CATIA</h4>
+    </div>
+    <div class="progress" style="--i:70;--clr:#2ccde9">
+      <h3>70<span>%</span></h3>
+      <h4>Auto CAD</h4>
+    </div>
+    <div class="progress" style="--i:95;--clr:#2ccde9">
+      <h3>95<span>%</span></h3>
+      <h4>SketchBook</h4>
+    </div>
+    <div class="progress" style="--i:55;--clr:#2ccde9">
+      <h3>55<span>%</span></h3>
+      <h4>SolidWorks</h4>
+    </div>
+    <div class="progress" style="--i:90;--clr:#2ccde9">
+      <h3>90<span>%</span></h3>
+      <h4>Figma</h4>
+    </div>
+    <div class="progress less" style="--i:45;--clr:#fb297b">
+      <h3>45<span>%</span></h3>
+      <h4>MatLab</h4>
+    </div>
+    <div class="progress" style="--i:60;--clr:#fb297b">
+      <h3>60<span>%</span></h3>
+      <h4>Arduino</h4>
+    </div>
+    <div class="progress less" style="--i:35;--clr:#fb297b">
+      <h3>35<span>%</span></h3>
+      <h4>PLC</h4>
+    </div>
+
+    <div class="progress" style="--i:90;--clr:#ffe047">
+      <h3>90<span>%</span></h3>
+      <h4>MS_Office</h4>
+    </div>
+    <div class="progress less" style="--i:30;--clr:#ffe047">
+      <h3>30<span>%</span></h3>
+      <h4>Tableau</h4>
+    </div>
+    <div class="progress" style="--i:80;--clr:#ffe047">
+      <h3>80<span>%</span></h3>
+      <h4>Photoshop</h4>
+    </div>
+    <div class="progress" style="--i:70;--clr:#ffe047">
+      <h3>70<span>%</span></h3>
+      <h4>Premier_Pro</h4>
+    </div>
+    <div class="progress" style="--i:75;--clr:#ffe047">
+      <h3>75<span>%</span></h3>
+      <h4>LaTex</h4>
+    </div>
+  </div>
+  </section>
+
+
+
+<!---------------CREATE PROJECT SECTION--------------------->
+
+<section class="project" id="project">
+
+    <h1 class="sub-title">My Projects</h1>
+
+    <div class="project-list">
+      <div class="work">
+        <img src="icon/ban_prjct.png">
+        <div class="layer">
+          <h3>Banana Extraction</h3>
+          <p>extraction of banana fibre from stem</p>
+        </div>
+      </div>
+      <div class="work">
+        <img src="icon/brake.png">
+        <div class="layer">
+          <h3>Brake Pedal</h3>
+          <p>Design of f1 brake pedal</p>
+        </div>
+      </div>
+      <div class="work">
+        <img src="icon/hrtbt.PNG">
+        <div class="layer">
+          <h3>Heart Monitoring System</h3>
+          <p>Heart Rate Monitor with IoT</p>
+        </div>
+      </div>
+      <div class="work">
+        <img src="icon/food.png">
+        <div class="layer">
+          <h3>Food Delivery Website</h3>
+          <p>website for food delivery</p>
+        </div>
+      </div>
+      <div class="work">
+        <img src="icon/toll.png">
+        <div class="layer">
+          <h3>IoT based Toll Booth Management system</h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="work">
+        <img src="icon/air.png">
+        <div class="layer">
+          <h3>Air Purifier</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+
+<!---------------CREATE CONTACT SECTION--------------------->
+ 
+<section class="contact" id="contact">
+  <h1 class="sub-title">Contact</h1>  
+    <div class="cont"> <a href="https://www.linkedin.com/in/midurn-jeyasingham-a84241136/" target="_blank">
+        <span class="c_icon"><img src="icon/linkedin.png"/></span>
+    </a>
+  </div>
+  <div class="cont"> <a href="https://github.com/GamerMax30?tab=projects" target="_blank">
+    <span class="c_icon"><img src="icon/github.png"/></span>
+</a>
+</div>
+
+<div class="cont"> <a href="//api.whatsapp.com/send?phone=918760766991 & text= checking your profile" target="_blank">
+  <span class="c_icon"><img src="icon/whatsapp.png"/></span>
+</a>
+</div>
+<div class="cont"> <a href="mailto:midurnj@gmail.com" target="_blank">
+  <span class="c_icon"><img src="icon/gmail.png"/></span>
+</a>
+</div>
+</br></br>
+<h1 class="sub-title">Links</h1>
+</section>
+
+<script src="index.js"></script>
+ </body>
+
+ </html>
